@@ -1,0 +1,22 @@
+a:4:{s:8:"template";s:16:"givingpress-lite";s:4:"mods";a:15:{i:0;b:0;s:18:"nav_menu_locations";a:2:{s:9:"main-menu";i:2;s:11:"social-menu";i:0;}s:18:"custom_css_post_id";i:834;s:16:"background_color";s:6:"ff8000";s:16:"background_image";s:0:"";s:16:"sidebars_widgets";a:2:{s:4:"time";i:1486961537;s:4:"data";a:4:{s:19:"wp_inactive_widgets";a:10:{i:0;s:10:"archives-2";i:1;s:6:"meta-2";i:2;s:8:"search-2";i:3;s:6:"text-2";i:4;s:6:"text-3";i:5;s:6:"text-4";i:6;s:6:"text-5";i:7;s:12:"categories-2";i:8;s:14:"recent-posts-2";i:9;s:17:"recent-comments-2";}s:9:"sidebar-1";a:3:{i:0;s:6:"text-6";i:1;s:8:"search-3";i:2;s:6:"text-7";}s:12:"sidebar-left";a:1:{i:0;s:6:"text-8";}s:6:"footer";a:2:{i:0;s:6:"text-9";i:1;s:8:"search-4";}}}s:32:"givingpress_lite_contact_address";s:0:"";s:30:"givingpress_lite_contact_email";s:0:"";s:30:"givingpress_lite_contact_phone";s:0:"";s:11:"custom_logo";i:708;s:34:"givingpress_lite_description_align";s:4:"left";s:9:"logo_size";i:25;s:27:"givingpress_lite_logo_align";s:6:"center";s:16:"header_textcolor";s:6:"ffffff";s:12:"header_image";s:13:"remove-header";}s:7:"options";a:9:{s:9:"site_icon";s:2:"63";s:43:"wpseo_titles[breadcrumbs-display-blog-page]";b:1;s:29:"wpseo_titles[breadcrumbs-sep]";s:7:"&raquo;";s:30:"wpseo_titles[breadcrumbs-home]";s:4:"Home";s:32:"wpseo_titles[breadcrumbs-prefix]";s:0:"";s:39:"wpseo_titles[breadcrumbs-archiveprefix]";s:12:"Archives for";s:38:"wpseo_titles[breadcrumbs-searchprefix]";s:16:"You searched for";s:34:"wpseo_titles[breadcrumbs-404crumb]";s:25:"Error 404: Page not found";s:23:"nav_menus_created_posts";a:0:{}}s:6:"wp_css";s:236:"a:link {color: #ff8000; 
+}
+
+a:visited {
+color: #0066ff;
+}
+
+a:hover, a:focus, a:active {
+    color: #0066ff;
+}
+
+.img-headline, .site-description {
+	background: #ff8000;
+	float: left;
+	font-weight: bold;
+}
+
+div.a {
+  text-align: left;
+}
+
+";}
