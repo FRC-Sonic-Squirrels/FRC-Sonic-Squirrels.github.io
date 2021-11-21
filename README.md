@@ -1,5 +1,9 @@
 # FRC-Sonic-Squirrels.github.io
 
+This is the Github Pages website for the Sonic Squirrels, FRC team 2930 <https://frc-sonic-squirrels.github.io/>.
+
+## Wordpress Migration
+
 Instructions on how to migrate from Wordpress to GitHub pages is here <https://guillermo-roman.com/migrating-wordpress-blog-to-github-pages/>
 
 ## Archives and Backups 
