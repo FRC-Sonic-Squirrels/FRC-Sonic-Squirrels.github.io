@@ -25,6 +25,9 @@ github_username:  FRC-Sonic-Squirrels
 twitch_username: sonicsquirrels
 facebook_username: SonicSquirrels2930
 
+# show excerpts of blog post on landing page
+show_excerpts: true
+
 # Build settings
 markdown: kramdown
 theme: minima
