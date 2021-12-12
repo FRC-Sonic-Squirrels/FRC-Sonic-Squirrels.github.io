@@ -18,7 +18,7 @@ email: sonicsquirrels@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Sonic Squirrels FIRST Robotics Cometition team 2930 from Snohomish, WA.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sonicsquirrels.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sonicsquirrels
 instagram_username: sonicsquirrels
 github_username:  FRC-Sonic-Squirrels
