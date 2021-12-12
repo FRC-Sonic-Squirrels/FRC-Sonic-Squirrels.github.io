@@ -17,7 +17,7 @@ title: Sonic Squirrels FRC Team 2930
 email: sonicsquirrels@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
  Sonic Squirrels FIRST Robotics Cometition team 2930 from Snohomish, WA.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sonicsquirrels
 instagram_username: sonicsquirrels
@@ -33,8 +33,12 @@ markdown: kramdown
 #theme: minima
 theme: jekyll-theme-cayman
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+
+# Remove the error "GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data."
+github: [metadata]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
