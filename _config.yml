@@ -65,6 +65,11 @@ github: [metadata]
 include:
   - _pages
 
+
+#
+# To include links in the navigation bar at the top of every page, add them to the
+# following list in header_pages.
+#
 header_pages:
   - _pages/2020-02-11-sponsors.html
   - _pages/2019-03-16-donate.html
@@ -74,7 +79,8 @@ header_pages:
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# to override the default setting. This excludes these files from getting published
+# to the website.
 exclude:
    - Gemfile
    - Gemfile.lock
