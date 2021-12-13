@@ -21,7 +21,7 @@
 title: Sonic Squirrels FRC Team 2930
 email: sonicsquirrels@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Sonic Squirrels FIRST Robotics Cometition team 2930 from Snohomish, WA.
+ Sonic Squirrels FIRST Robotics Competition team 2930 from Snohomish, WA.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://sonicsquirrels.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sonicsquirrels
@@ -30,6 +30,9 @@ github_username:  FRC-Sonic-Squirrels
 twitch_username: sonicsquirrels
 facebook_username: SonicSquirrels2930
 bluealliance_url: "https://www.thebluealliance.com/team/2930"
+
+
+# Customize 
 
 # show excerpts of blog post on landing page
 show_excerpts: true
@@ -48,7 +51,6 @@ markdown: kramdown
 # Cayman Theme
 #theme: jekyll-theme-cayman
 
-
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
@@ -57,14 +59,26 @@ plugins:
 # Remove the error "GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data."
 github: [metadata]
 
+
+# By default only _post directory will generate finished HTML in the _site directory
+# if you add more directories and want them to be part of the site. Add them here.
+include:
+  - _pages
+
+header_pages:
+  - _pages/2020-02-11-sponsors.html
+  - _pages/2019-03-16-donate.html
+  - _pages/2017-02-09-contact.html
+  - _pages/2017-02-09-about.html
+  
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/
+   - OldWordpressArchive
+
