@@ -7,6 +7,11 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+#   To serve files locally on http://localhost:4000/ run
+#        'bundle exec jekyll serve'
+#   If you change the theme, first run
+#        'bundle install'
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -24,14 +29,26 @@ instagram_username: sonicsquirrels
 github_username:  FRC-Sonic-Squirrels
 twitch_username: sonicsquirrels
 facebook_username: SonicSquirrels2930
+bluealliance_url: "https://www.thebluealliance.com/team/2930"
 
 # show excerpts of blog post on landing page
 show_excerpts: true
 
 # Build settings
 markdown: kramdown
+
+#
+# Theme
+#
+# To use local custom theme, leve the "theme:" options commented out.
+# Theme can be customized by changing files in _layout _includes and _sass.
+# Using the minima theme as a base
+# Minima Theme
 #theme: minima
-theme: jekyll-theme-cayman
+# Cayman Theme
+#theme: jekyll-theme-cayman
+
+
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
