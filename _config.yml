@@ -7,6 +7,11 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+#   To serve files locally on http://localhost:4000/ run
+#        'bundle exec jekyll serve'
+#   If you change the theme, first run
+#        'bundle install'
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -16,32 +21,70 @@
 title: Sonic Squirrels FRC Team 2930
 email: sonicsquirrels@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Sonic Squirrels FIRST Robotics Cometition team 2930 from Snohomish, WA.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+ Sonic Squirrels FIRST Robotics Competition team 2930 from Snohomish, WA.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://sonicsquirrels.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sonicsquirrels
 instagram_username: sonicsquirrels
 github_username:  FRC-Sonic-Squirrels
 twitch_username: sonicsquirrels
 facebook_username: SonicSquirrels2930
+bluealliance_url: "https://www.thebluealliance.com/team/2930"
+
+
+# Customize 
 
 # show excerpts of blog post on landing page
 show_excerpts: true
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+
+#
+# Theme
+#
+# To use local custom theme, leve the "theme:" options commented out.
+# Theme can be customized by changing files in _layout _includes and _sass.
+# Using the minima theme as a base
+# Minima Theme
+#theme: minima
+# Cayman Theme
+#theme: jekyll-theme-cayman
+
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-seo-tag
+
+# Remove the error "GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data."
+github: [metadata]
+
+
+# By default only _post directory will generate finished HTML in the _site directory
+# if you add more directories and want them to be part of the site. Add them here.
+include:
+  - _pages
+
+
+#
+# To include links in the navigation bar at the top of every page, add them to the
+# following list in header_pages.
+#
+header_pages:
+  - _pages/2020-02-11-sponsors.html
+  - _pages/2019-03-16-donate.html
+  - _pages/2017-02-09-contact.html
+  - _pages/2017-02-09-about.html
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# to override the default setting. This excludes these files from getting published
+# to the website.
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/
+   - OldWordpressArchive
+
