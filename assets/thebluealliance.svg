@@ -1,32 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="72px" height="112px" viewBox="0 0 72 112" enable-background="new 0 0 72 112" xml:space="preserve">
-<g>
-	<g>
-		<rect x="8" y="20" fill="#FFFFFF" width="6" height="64"/>
-	</g>
-	<g>
-		<rect x="58" y="20" fill="#FFFFFF" width="6" height="64"/>
-	</g>
-	<g>
-		<path fill="#FFFFFF" d="M36,112C20.561,112,8,99.439,8,84h6c0,12.131,9.869,22,22,22V112z"/>
-	</g>
-	<g>
-		<path fill="#FFFFFF" d="M36,112v-6c12.131,0,22-9.869,22-22h6C64,99.439,51.439,112,36,112z"/>
-	</g>
-	<g>
-		<rect x="33" y="20" fill="#FFFFFF" width="6" height="89"/>
-	</g>
-	<g>
-		<rect x="11" y="78" fill="#FFFFFF" width="50" height="6"/>
-	</g>
-	<g>
-		<rect x="11" y="50" fill="#FFFFFF" width="50" height="6"/>
-	</g>
-	<g id="Lamp_Rectangle_4_">
-		<path fill="#FFFFFF" d="M72,24c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4c0-2.2,1.8-4,4-4h64c2.2,0,4,1.8,4,4V24z"/>
-	</g>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="256.000000pt" height="256.000000pt" viewBox="0 0 256.000000 256.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,256.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M489 2531 l-29 -29 0 -262 0 -262 29 -29 c26 -26 36 -29 90 -29 l61
+0 0 -672 c0 -758 0 -754 72 -898 100 -200 307 -334 532 -347 289 -16 553 165
+649 447 22 64 22 72 25 768 l3 702 60 0 c54 0 64 3 90 29 l29 29 0 262 0 262
+-29 29 -29 29 -762 0 -762 0 -29 -29z m721 -861 l0 -250 -215 0 -215 0 0 250
+0 250 215 0 215 0 0 -250z m570 0 l0 -250 -215 0 -215 0 0 250 0 250 215 0
+215 0 0 -250z m-570 -640 l0 -250 -215 0 -215 0 0 250 0 250 215 0 215 0 0
+-250z m570 0 l0 -250 -215 0 -215 0 0 250 0 250 215 0 215 0 0 -250z m-570
+-640 l0 -250 -27 6 c-191 46 -333 180 -387 363 -9 30 -16 72 -16 93 l0 38 215
+0 215 0 0 -250z m570 212 c0 -21 -7 -63 -16 -93 -54 -184 -196 -317 -386 -363
+l-28 -6 0 250 0 250 215 0 215 0 0 -38z"/>
 </g>
 </svg>
