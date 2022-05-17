@@ -67,6 +67,9 @@ For more information on how to format posts read <https://jekyllrb.com/docs/post
 
 Alternatively you can write your blog posts in [markdown](https://www.markdownguide.org/getting-started/) which can be simpler and quicker, but doesn't have as much flexibility and power as HTML if you need to do something like embed a YouTube video.
 
+## Customizing CSS
+
+CSS for the website is in the `_sass/` directory.
 ## How to Make a Local Deployment
 
 * <https://jekyllrb.com/docs/>
