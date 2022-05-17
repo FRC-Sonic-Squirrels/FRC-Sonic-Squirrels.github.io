@@ -30,6 +30,7 @@ For the meta-data (between the '---' delimiters at the top of the post):
 * 'permalink:' should include year, month, simplified title in lowercase, separated by dashes "-" (minus signs)
 * 'categories:' are optional, they're only used in RSS feed
 * 'author:' should be 'HiFi' so posts look like they come from the team, not an individual
+* 'published: false' will prevent the draft of your post from being visible until it is finished.
 
 For the posts:
 * posts are HTML and will respect any HTML, CSS, or Javascript used.
@@ -61,7 +62,6 @@ Then use the following HTML in your post. Changing the file name and the descrip
 * using `alt=` text makes the site more accessible to those who are visually impaired.
 
 ### Advanced Stuff
-
 
 For more information on how to format posts read <https://jekyllrb.com/docs/posts/>.
 
