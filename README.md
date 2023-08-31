@@ -92,6 +92,16 @@ Jekyll templates use the [Liquid](https://shopify.github.io/liquid/) templating 
 * `_config.yml` - configuration file. <https://jekyllrb.com/docs/structure/>
 * `Gemfile` - ruby `bundle` configuration, tracks installed gems <https://bundler.io/gemfile.html>
 
+## Updating Gemfile Libraries
+
+To Update the libraries used by Jekyll run the following. This make come up if one of the libraries is out of date or is flagged for a security issue. GitHub will scan the repo and send an email alert if there is a security vulnerability in one of the libraries.
+
+```
+bundle update
+```
+
+After running bundle update, use git to commit and push the updated `Gemfile.lock`.
+
 ## Wordpress Migration
 
 Instructions on how to migrate from Wordpress to GitHub pages is here <https://guillermo-roman.com/migrating-wordpress-blog-to-github-pages/>
