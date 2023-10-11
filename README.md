@@ -18,7 +18,7 @@ author: "Sonic Squirrels"
 permalink: 2022/03/put-blog-post-title-here
 ---
 
-Your blog <b>html</b> goes here.
+Your blog post <b>html</b> goes here.
 ```
 
 3. Commit and push your change to GitHub. Then wait until GitHub Pages updates the blog. This shouldn't take more than a few minutes at most. You may need to do a Shift-Reload in your webpages to get the update pages.
@@ -34,7 +34,7 @@ For the meta-data (between the '---' delimiters at the top of the post):
 
 For the posts:
 * posts are HTML and will respect any HTML, CSS, or Javascript used.
-* use <a href> tags to add links to other pages. 
+* use \<a href\> tags to add links to other pages. 
 
 ### Embedding Youtube Videos
 
