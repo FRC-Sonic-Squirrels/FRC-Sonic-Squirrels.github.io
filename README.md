@@ -48,7 +48,7 @@ Use the following HTML and replace the title with the actual title of the video 
 </div>
 ```
 
-For example, if you are embedding the 2023 Worlds Recap video found at <https://www.youtube.com/watch?v=30ZQIG8Hmxs> the YouTube video id is `30ZQIG8Hmxs` everything that comes after the `?v=` (and before any following & characters) in the URL. In this case `30ZQIG8Hmxs` is what you would substitute in place of `XXX-YOUTUBE-VIDEO-ID-XXX` in the html code snippet above.
+For example, if you are embedding the 2023 Worlds Recap video found at <https://www.youtube.com/watch?v=30ZQIG8Hmxs> the YouTube video id is `30ZQIG8Hmxs`. Everything that comes after the `?v=` (and before any following & characters) in the URL. In this case `30ZQIG8Hmxs` is what you would substitute in place of `XXX-YOUTUBE-VIDEO-ID-XXX` in the html code snippet above.
 
 ### Inserting images
 
