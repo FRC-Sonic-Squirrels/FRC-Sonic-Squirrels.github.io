@@ -53,7 +53,7 @@ For example, if you are embedding the 2023 Worlds Recap video found at <https://
 ### Inserting images
 
 * Resize images to be no taller than 1080 pixels. File size should be 250kb or less. Image format should be JPG. (only use PNG for small digital images)
-* copy files into the directory '/assets/images/2022/' (or the appropriate year)
+* copy files into the directory '/assets/images/2023/' (or the appropriate year)
 * name the files something identifiable. Include the event name, month, something that describes the photo in 2 words or less.
 
 Then use the following HTML in your post. Changing the file name and the descriptive text of course.
@@ -64,7 +64,7 @@ Then use the following HTML in your post. Changing the file name and the descrip
 </p>
 ```
 
-* the `class="responsive"` lets the image expand and contract to fit hte screen and work on mobile.
+* the `class="responsive"` lets the image expand and contract to fit the screen and work on mobile.
 * using `alt=` text makes the site more accessible to those who are visually impaired.
 
 ### Advanced Stuff
