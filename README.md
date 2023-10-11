@@ -23,7 +23,7 @@ Your blog <b>html</b> goes here.
 
 3. Commit and push your change to GitHub. Then wait until GitHub Pages updates the blog. This shouldn't take more than a few minutes at most. You may need to do a Shift-Reload in your webpages to get the update pages.
 
-### Formatting ∏
+### Formatting
 
 For the meta-data (between the '---' delimiters at the top of the post):
 * make sure 'title:' field is in quotes.
@@ -34,8 +34,12 @@ For the meta-data (between the '---' delimiters at the top of the post):
 
 For the posts:
 * posts are HTML and will respect any HTML, CSS, or Javascript used.
-* Embedding Youtube. Use the following HTML and replace the title with the actual title of the video and replace `XXX-YOUTUBE-VIDEO-ID-XXX` with the YouTube video's video id. See one of the  VLOG posts for an example.
+* use <a href> tags to add links to other pages. 
 
+### Embedding Youtube Videos
+
+Use the following HTML and replace the title with the actual title of the video and replace `XXX-YOUTUBE-VIDEO-ID-XXX` with the YouTube video's video id. 
+ 
 ```html
 <div class="videoWrapper">
 <iframe title="YOUTUBE VIDEO TITLE" width="1015" height="761" src="https://www.youtube.com/embed/XXX-YOUTUBE-VIDEO-ID-XXX?feature=oembed"
@@ -43,6 +47,8 @@ For the posts:
     allowfullscreen></iframe>
 </div>
 ```
+
+For example, if you are embedding the 2023 Worlds Recap video found at <https://www.youtube.com/watch?v=30ZQIG8Hmxs> the YouTube video id is `30ZQIG8Hmxs` everything that comes after the `?v=` (and before any following & characters) in the URL. In this case `30ZQIG8Hmxs` is what you would substitute in place of `XXX-YOUTUBE-VIDEO-ID-XXX` in the html code snippet above.
 
 ### Inserting images
 
@@ -100,7 +106,7 @@ To Update the libraries used by Jekyll run the following. This make come up if o
 bundle update
 ```
 
-After running bundle update, use git to commit and push the updated `Gemfile.lock`.
+After running bundle update, use git to commit and push the updated `Gemfile.lock`.`
 
 ## Wordpress Migration
 
