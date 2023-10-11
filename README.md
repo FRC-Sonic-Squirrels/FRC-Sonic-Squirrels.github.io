@@ -94,11 +94,11 @@ CSS for the website is in the `_sass/` directory.
 
 The following are important directories and their function. See <https://jekyllrb.com/docs/structure/> and <https://github.com/jekyll/minima> for more details.
 
-* `_posts` - blog posts in the format `YYYY-MM-DD-post-title.html`  (.html for HTML or .md for markdown)
-* `_pages` - web pages, that are not blog posts: "About Us", "Donate", etc.
-* `assets` - images, icons, other static files.
-* `_layout` - webpage templates
-* `_includes` - templates for headers, footer, etc
+* [_posts](/_posts/) - blog posts in the format `YYYY-MM-DD-post-title.html`  (.html for HTML or .md for markdown)
+* [_pages](/_pages/) - web pages, that are not blog posts: "About Us", "Donate", etc.
+* [assets](/assets/) - images, icons, other static files.
+* [_layout](/_layout/) - webpage templates
+* [_includes](/_includes/) - templates for headers, footer, etc
 
 Jekyll templates use the [Liquid](https://shopify.github.io/liquid/) templating language.
 
