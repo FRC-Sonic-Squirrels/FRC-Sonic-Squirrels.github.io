@@ -7,7 +7,7 @@ This is the Github Pages website for the Sonic Squirrels, FRC team 2930 <https:/
 Either clone the repo and edit in VS Code or edit directly on github.com. Preferably by cloning this repo and testing on your own machine first if you are making changes to the layout and styles.
 
 1. Create a new file in the `_posts` directory. The file must be in the format `YYYY-MM-DD-blog-title.html`  (or ending in .`md`). Where YYYY is the current year, MM is the current month, and DD is the current day. (month and day with leading zeros). Something like this: `2021-12-04-moved-blog-to-github-pages.html`.
-2. Next edit the file to look like this:
+2. Next edit the file to look like this example post:
 
 ```html
 ---
@@ -17,9 +17,18 @@ categories: robots
 author: "Sonic Squirrels"
 permalink: 2022/03/put-blog-post-title-here
 ---
-
-Your blog post <b>html</b> goes here.
+<p>
+Your blog post <b>html</b> goes here. The word "html" is bold thanks to the HTML "b" tag.
+</p>
+<p>
+This is a second paragraph. Paragraphs are separated by html "p" tags.
+</p>
+<p>
+This is a link to our <a href="https://www.thebluealliance.com/team/2930/">2930 Blue Alliance Page.</a>    
+</p>
 ```
+
+Check out previous posts for more formatting examples in the [_posts](/_posts/) directory.
 
 3. Commit and push your change to GitHub. Then wait until GitHub Pages updates the blog. This shouldn't take more than a few minutes at most. You may need to do a Shift-Reload in your webpages to get the update pages.
 
