@@ -84,8 +84,10 @@ Alternatively you can write your blog posts in [markdown](https://www.markdowngu
 
 ## Customizing CSS
 
-CSS for the website is in the `_sass/` directory.
+CSS for the website is in the `_sass/` directory. The CSS files control the layout, color, fonts, etc of the whole site. Only change if you know what you're doing. Changes here will affect the whole site. Test on a local deployment, not the public website (see the next section).
 ## How to Make a Local Deployment
+
+It is possible to run the website locally on your own PC so that you can test posts and changes to html/css. If you are planning to do major changes to the layout of the site, you should do test on a local deployment. If you're just making a single post or a simple change of wording, it's OK to just make the change and test it on the public site.
 
 * <https://jekyllrb.com/docs/>
 * [Watch Bill Raymond's excellent introductions to Github Pages and Jekyll.](https://www.youtube.com/playlist?list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq)
@@ -118,6 +120,8 @@ bundle update
 After running bundle update, use git to commit and push the updated `Gemfile.lock`.`
 
 ## Wordpress Migration
+
+The following are notes about when this blog was migrated from Wordpress running on GoDaddy to this GitHub Pages blog. You don't need to care about this. It is here for historical context. 
 
 Instructions on how to migrate from Wordpress to GitHub pages is here <https://guillermo-roman.com/migrating-wordpress-blog-to-github-pages/>
 
