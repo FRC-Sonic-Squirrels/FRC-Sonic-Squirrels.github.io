@@ -61,7 +61,7 @@ For example, if you are embedding the 2023 Worlds Recap video found at <https://
 
 ### Inserting images
 
-* Resize images to be no taller than 1080 pixels. File size should be 250kb or less. Image format should be JPG. (only use PNG for small digital images)
+* Resize images to be no taller than 1080 pixels. File size should be 250kb or less. Image format should be JPG. (only use PNG for small digital images and logos) [How to Resize Images](https://www3.uwsp.edu/infotech/web/Pages/resizing-images.aspx)
 * copy files into the directory '/assets/images/2023/' (or the appropriate year)
 * name the files something identifiable. Include the event name, month, something that describes the photo in 2 words or less.
 
