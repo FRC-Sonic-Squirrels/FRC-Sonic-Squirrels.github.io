@@ -85,9 +85,12 @@ Alternatively you can write your blog posts in [markdown](https://www.markdowngu
 ## Customizing CSS
 
 CSS for the website is in the `_sass/` directory. The CSS files control the layout, color, fonts, etc of the whole site. Only change if you know what you're doing. Changes here will affect the whole site. Test on a local deployment, not the public website (see the next section).
+
 ## How to Make a Local Deployment
 
 It is possible to run the website locally on your own PC so that you can test posts and changes to html/css. If you are planning to do major changes to the layout of the site, you should do test on a local deployment. If you're just making a single post or a simple change of wording, it's OK to just make the change and test it on the public site.
+
+Note: To run locally you will need to download Ruby. GitHub Pages is dependent on Ruby 2.7.4, so make sure to download 2.7.4 and not the latest version of Ruby. See the following resources for local development:
 
 * <https://jekyllrb.com/docs/>
 * [Watch Bill Raymond's excellent introductions to Github Pages and Jekyll.](https://www.youtube.com/playlist?list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq)
