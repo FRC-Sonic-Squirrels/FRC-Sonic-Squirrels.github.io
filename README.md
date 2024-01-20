@@ -92,8 +92,9 @@ It is possible to run the website locally on your own PC so that you can test po
 
 Note: To run locally you will need to download Ruby. GitHub Pages is dependent on Ruby 2.7.4, so make sure to download 2.7.4 and not the latest version of Ruby. See the following resources for local development:
 
-* <https://jekyllrb.com/docs/>
+* [Local Deployment Instructions](https://jekyllrb.com/docs/)
 * [Watch Bill Raymond's excellent introductions to Github Pages and Jekyll.](https://www.youtube.com/playlist?list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq)
+* [GitHub Pages Dependencies](https://pages.github.com/versions/)
 
 ## File Structure
 
