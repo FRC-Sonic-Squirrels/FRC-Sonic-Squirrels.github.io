@@ -73,7 +73,7 @@ include:
 header_pages:
   - _pages/sponsors.html
   - _pages/donate.html
-  - _pages/social-media.html
+  - _pages/posts-page.html
   - _pages/contact.html
   - _pages/about.html
   
