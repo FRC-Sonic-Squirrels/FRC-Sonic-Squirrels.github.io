@@ -26,6 +26,12 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+@font-face {
+  font-family: "Vermin Vibes";
+  src: url("/assets/fonts/vermin_vibes.woff") format("woff"),
+       url("/assets/fonts/vermin_vibes.ttf") format("truetype");
+}
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
