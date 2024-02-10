@@ -5,6 +5,7 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  background-image:linear-gradient((to right, #FFCD09, #F99F3F, #FF8000, #ee5029));
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -12,8 +13,11 @@
 
 .site-title {
   @include relative-font-size(1.625);
+  font-family: "Vermin Vibes", "Segoe UI";
   font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  line-height: 0;
+  padding-top: $base-line-height * $base-font-size * 2.25;
+  font-size: $base-font-size * 2.5;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
@@ -108,6 +112,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-image:linear-gradient((to right, #FFCD09, #F99F3F, #FF8000, #ee5029));
 }
 
 .footer-heading {
@@ -123,7 +128,6 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
