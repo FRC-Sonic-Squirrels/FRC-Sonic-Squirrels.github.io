@@ -1,9 +1,9 @@
 {
     "cSpell.words": [
+        "bluealliance",
         "Snohomish",
         "sonicsquirrels"
     ],
     "files.associations": {
-        "*.yaml": "home-assistant"
     }
 }
