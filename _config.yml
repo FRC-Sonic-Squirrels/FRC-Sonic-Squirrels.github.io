@@ -13,6 +13,8 @@
 #   If you change the theme, first run
 #        'bundle install'
 
+encoding: utf-8
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -31,7 +33,6 @@ twitch_username: sonicsquirrels
 facebook_username: SonicSquirrels2930
 bluealliance_url: "https://www.thebluealliance.com/team/2930"
 
-
 # Customize 
 
 # show excerpts of blog post on landing page
@@ -43,7 +44,7 @@ markdown: kramdown
 #
 # Theme
 #
-# To use local custom theme, leve the "theme:" options commented out.
+# To use local custom theme, leave the "theme:" options commented out.
 # Theme can be customized by changing files in _layout _includes and _sass.
 # Using the minima theme as a base
 # Minima Theme
