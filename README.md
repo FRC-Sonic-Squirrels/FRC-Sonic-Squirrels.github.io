@@ -86,17 +86,46 @@ Alternatively you can write your blog posts in [markdown](https://www.markdowngu
 
 CSS for the website is in the `_sass/` directory. The CSS files control the layout, color, fonts, etc of the whole site. Only change if you know what you're doing. Changes here will affect the whole site. Test on a local deployment, not the public website (see the next section).
 
-## How to Make a Local Deployment
+# How to Make a Local Deployment
 
 It is possible to run the website locally on your own PC so that you can test posts and changes to html/css. If you are planning to do major changes to the layout of the site, you should do test on a local deployment. If you're just making a single post or a simple change of wording, it's OK to just make the change and test it on the public site.
 
-Note: To run locally you will need to download Ruby. GitHub Pages is dependent on Ruby 2.7.4, so make sure to download 2.7.4 and not the latest version of Ruby. See the following resources for local development:
+### 1. To run locally you will need to download Ruby.
+* [Ruby Page](https://www.ruby-lang.org/en/downloads/)
 
+![readme_assets/tutorial1.png](readme_assets/tutorial1.png)
+If you have Linux, use `rbenv` or `RVM`. If you have Windows, use `RubyInstaller`. If you have a Mac, use `rbenv` or `RVM` just like linux.
+### 2. Installer Instructions
+If an installer asks you what to install, just select the default. (usually `Enter` key) Do this for all questions.
+
+### 3. Instructions for RubyGems
+* [RubyGems Page](https://rubygems.org/pages/download)
+
+If you have Windows, select `Zip`. Extract the file. Load Command Prompt. Copy the path of the RubyGems folder you just extracted. run `cd rubyfolder`
+
+(replace rubyfolder with the link you have ex: `C:\Users\me\Downloads\rubygems-3.5.6\rubygems-3.5.6`)
+
+What you just did was enter the folder we want to operate in. "CD: Change Directory"
+
+Then, while still in command prompt, run `ruby setup.rb` You should then be met with a running program. Wait a few minutes until you can see `RubyGems installed the following executables:` You should now be done.
+![img.png](readme_assets/tutorial2.png)
+
+### 4. Instructions for GCC/Make
+* [GCC Page](https://gcc.gnu.org/install/)
+* [Make Page](https://www.gnu.org/software/make/)
+
+Ask a mentor for help. (unfinished tutorial segment)
+
+
+### Local Instructions
 * [Local Deployment Instructions](https://jekyllrb.com/docs/)
+You should have all the prerequisites. Follow this tutorial. If presented with an error, try `bundle add webrick`, then serve again.
+
+### Other Resources
 * [Watch Bill Raymond's excellent introductions to Github Pages and Jekyll.](https://www.youtube.com/playlist?list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq)
 * [GitHub Pages Dependencies](https://pages.github.com/versions/)
 
-## File Structure
+# File Structure
 
 The following are important directories and their function. See <https://jekyllrb.com/docs/structure/> and <https://github.com/jekyll/minima> for more details.
 
