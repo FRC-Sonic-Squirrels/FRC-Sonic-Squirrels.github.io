@@ -76,6 +76,7 @@ header_pages:
   - _pages/posts-page.html
   - _pages/contact.html
   - _pages/about.html
+  - _pages/resources.html
   
 
 # Exclude from processing.
