@@ -121,7 +121,7 @@ To Update the libraries used by Jekyll run the following. This make come up if o
 bundle update
 ```
 
-After running bundle update, use git to commit and push the updated `Gemfile.lock`.`
+After running bundle update, use git to commit and push the updated `Gemfile.lock`.
 
 ## Wordpress Migration
 
