@@ -40,3 +40,6 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 gem "kramdown-parser-gfm"
 
 gem "webrick"
+
+# csv was removed from Ruby's default gems in Ruby 3.4 but Jekyll 3.9 still requires it.
+gem "csv"
