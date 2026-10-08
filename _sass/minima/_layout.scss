@@ -28,6 +28,16 @@
   }
 }
 
+@include media-query($on-palm) {
+  .site-title {
+    max-width: calc(100% - 60px);
+    padding-top: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
