@@ -13,14 +13,16 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-family: "Vermin Vibes", "Segoe UI";
+  font-family: "Vermin Vibes", "Segoe UI", sans-serif;
   font-weight: 300;
-  line-height: 0;
-  padding-top: $base-line-height * $base-font-size * 2.25;
+  line-height: 1.1;
+  padding-top: 0.85rem;
   font-size: $base-font-size * 2.5;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  display: inline-block;
+  max-width: 100%;
 
   &,
   &:visited {
@@ -30,11 +32,19 @@
 
 @include media-query($on-palm) {
   .site-title {
-    max-width: calc(100% - 60px);
-    padding-top: 1.2rem;
-    font-size: 1.5rem;
-    line-height: 1.2;
-    white-space: nowrap;
+    max-width: calc(100% - 64px);
+    padding-top: 0.75rem;
+    font-size: 1.55rem;
+    line-height: 1.15;
+    white-space: normal;
+    letter-spacing: -0.05em;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .site-title {
+    max-width: calc(100% - 70px);
+    white-space: normal;
   }
 }
 
