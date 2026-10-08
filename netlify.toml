@@ -1,0 +1,8 @@
+[build]
+  # Install any gems added to Gemfile.lock (e.g. csv for Ruby 3.4) before building.
+  command = "bundle install && bundle exec jekyll build"
+  publish = "_site"
+
+[build.environment]
+  # Reuse Netlify's cached gem directory so only new gems need installing.
+  BUNDLE_PATH = "/opt/build/cache/bundle"
