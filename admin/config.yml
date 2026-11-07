@@ -1,0 +1,84 @@
+# Decap CMS settings. Only the three CHANGE-ME lines need editing.
+backend:
+  name: github
+  repo: CHANGE-ME/FRC-Sonic-Squirrels.github.io   # your organization/repo
+  branch: redesign                                  # change to main if the new site ever moves there
+  base_url: https://CHANGE-ME.workers.dev           # the login helper from oauth-worker/ (see README)
+  auth_endpoint: auth
+
+# Uncomment so every edit is a draft that a mentor approves first:
+# publish_mode: editorial_workflow
+
+site_url: https://sonicsquirrels.com
+display_url: https://sonicsquirrels.com
+media_folder: assets/images/uploads
+public_folder: /assets/images/uploads
+
+collections:
+  - name: robots
+    label: Robots
+    files:
+      - name: robots
+        label: Robot Archive
+        file: content/robots.json
+        fields:
+          - label: Robots
+            name: robots
+            widget: list
+            summary: "{{fields.year}} · {{fields.name}}"
+            fields:
+              - { label: Season year, name: year, widget: number, value_type: int }
+              - { label: Robot name, name: name, widget: string }
+              - { label: Game, name: game, widget: string }
+              - { label: Photo for the archive card, name: photo, widget: image, required: false, hint: "Any good photo of the robot, under 1 MB." }
+              - { label: Carousel cutout, name: image, widget: image, required: false, hint: "Transparent PNG of the whole robot, side view, cropped tight. Empty shows a placeholder." }
+              - { label: Read-more link, name: url, widget: string, required: false, hint: "Link to the reveal post or season page, like /2024/03/robot-reveal-2024/" }
+              - { label: CAD link, name: cad_url, widget: string, required: false, hint: "Onshape or SolidWorks share link, or a downloadable file." }
+  - name: news
+    label: News
+    files:
+      - name: news
+        label: News Posts
+        file: content/news.json
+        fields:
+          - label: Posts
+            name: posts
+            widget: list
+            summary: "{{fields.date}} · {{fields.title}}"
+            fields:
+              - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: Title, name: title, widget: string }
+              - { label: Text, name: body, widget: text }
+              - { label: Photo, name: image, widget: image, required: false, hint: "Under 1 MB. Resize big photos first." }
+              - { label: YouTube link, name: video, widget: string, required: false }
+              - { label: Page address, name: url, widget: string, required: false, hint: "Leave EMPTY for new posts. Only old posts have their own page." }
+  - name: gallery
+    label: Photo Gallery
+    files:
+      - name: gallery
+        label: Photo Gallery
+        file: content/gallery.json
+        fields:
+          - label: Photos
+            name: photos
+            widget: list
+            summary: "{{fields.date}} · {{fields.caption}}"
+            fields:
+              - { label: Photo, name: image, widget: image, hint: "Under 1 MB. Resize big photos first." }
+              - { label: Caption, name: caption, widget: string }
+              - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+  - name: site
+    label: Sponsors
+    files:
+      - name: sponsors
+        label: Sponsors
+        file: content/site.json
+        fields:
+          - label: Sponsors
+            name: sponsors
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Website, name: url, widget: string, required: false }
+              - { label: Logo, name: logo, widget: image, required: false }

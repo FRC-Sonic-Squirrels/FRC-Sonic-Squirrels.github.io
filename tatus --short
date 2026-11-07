@@ -1,0 +1,409 @@
+warning: in the working copy of '404.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/images/2026/fabworks.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/main.scss', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/minima-social-icons.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'assets/thebluealliance.svg', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+ .gitignore                                         |     4 [31m-[m
+ .vscode/settings.json                              |    11 [31m-[m
+ .vscode/spellright.dict                            |     2 [31m-[m
+ 404.html                                           |    33 [32m+[m[31m-[m
+ Gemfile                                            |    45 [31m-[m
+ Gemfile.lock                                       |   297 [31m-[m
+ OldWordpressArchive/_attachments/000075.html       |    24 [31m-[m
+ .../_attachments/1280px-new_logo_gmail-svg-2.html  |    23 [31m-[m
+ .../_attachments/1280px-new_logo_gmail-svg.html    |    23 [31m-[m
+ .../_attachments/16984726791_ac64ff89ea_n.html     |    23 [31m-[m
+ .../_attachments/2000px-leidos_logo_2013-svg.html  |    23 [31m-[m
+ .../2017-season-sponsor-flyer-final.html           |    23 [31m-[m
+ .../2020-01-18_infinite-squirrel-button.html       |    23 [31m-[m
+ ...-18_infinite-squirrel-button_rev-darksaber.html |    23 [31m-[m
+ ...01-18_infinite-squirrel-button_rev-green-1.html |    23 [31m-[m
+ ...01-18_infinite-squirrel-button_rev-green-2.html |    23 [31m-[m
+ ...0-01-18_infinite-squirrel-button_rev-green.html |    23 [31m-[m
+ .../2020-01-18_infinite-squirrel_final-1.html      |    23 [31m-[m
+ .../2020-01-18_infinite-squirrel_final.html        |    23 [31m-[m
+ .../2020-01-18_infinite-squirrel_rev-red.html      |    23 [31m-[m
+ ...-01-20_infinite-squirrel-button_rev-purple.html |    23 [31m-[m
+ .../_attachments/27739026083_d14e315a7f_c.html     |    24 [31m-[m
+ .../_attachments/27739026083_d14e315a7f_n.html     |    24 [31m-[m
+ .../_attachments/32467503374_e9226ecf72_z-1.html   |    23 [31m-[m
+ .../_attachments/32467680384_3cae9b1da1_z.html     |    24 [31m-[m
+ .../_attachments/32467688504_12c49c55f9_z.html     |    24 [31m-[m
+ .../_attachments/32467906464_325ec55d8f_z.html     |    24 [31m-[m
+ .../_attachments/32496105083_000ddcb10d_z.html     |    23 [31m-[m
+ .../_attachments/32496114103_86a159f309_z.html     |    23 [31m-[m
+ .../_attachments/32496433533_b856ddc9e0_z.html     |    24 [31m-[m
+ .../_attachments/32928035300_f2dc54f04e_z.html     |    23 [31m-[m
+ .../_attachments/32928218550_077054f1c5_z.html     |    23 [31m-[m
+ .../_attachments/32928487490_92b7d6966e_z.html     |    25 [31m-[m
+ .../_attachments/32928493510_9ccc5a6f9d_z.html     |    23 [31m-[m
+ .../_attachments/33182427191_ce50fd3014_z-1.html   |    23 [31m-[m
+ .../_attachments/33182460951_c0b7a8f352_z.html     |    24 [31m-[m
+ .../_attachments/33182768631_62bbefc9c1_z.html     |    23 [31m-[m
+ .../_attachments/33183060451_03d6cba236_z.html     |    23 [31m-[m
+ .../_attachments/33258533520_9f6901a5db_z.html     |    25 [31m-[m
+ .../_attachments/33269768436_33c18a7d93_z.html     |    23 [31m-[m
+ .../_attachments/33270198846_e11d6f1dd7_m.html     |    23 [31m-[m
+ .../_attachments/33288955950_f884943235_z.html     |    26 [31m-[m
+ .../_attachments/33310409445_7f29ee156c_z-1.html   |    23 [31m-[m
+ .../_attachments/33310409445_7f29ee156c_z.html     |    23 [31m-[m
+ .../_attachments/33310448365_8b7d720bf9_z.html     |    24 [31m-[m
+ .../_attachments/33310587075_ca84e64333_z.html     |    23 [31m-[m
+ .../_attachments/33310753135_0073f5d906_z.html     |    23 [31m-[m
+ .../_attachments/33673310845_2ea133ac31_o.html     |    24 [31m-[m
+ ...c09b7a9d5b812f465e-mv2_d_6000_4000_s_4_2-1.html |    24 [31m-[m
+ ...42c09b7a9d5b812f465e-mv2_d_6000_4000_s_4_2.html |    24 [31m-[m
+ ...40ab99c9825f5df46f5a-mv2_d_6000_4000_s_4_2.html |    24 [31m-[m
+ ...4283db106d55b2dea7-mv2_d_4352_3616_s_4_2-1.html |    26 [31m-[m
+ ...834806baabfd3908c2821b-mv2_d_1800_2340_s_2.html |    23 [31m-[m
+ ...4c658a85c496c3d21d76-mv2_d_6000_4000_s_4_2.html |    25 [31m-[m
+ ...ec86c0a93b04437d18-mv2_d_6000_4000_s_4_2-1.html |    24 [31m-[m
+ ...4ac0ba18ec457f4a3410-mv2_d_6000_4000_s_4_2.html |    24 [31m-[m
+ ...b3987fb869791a632c-mv2_d_6000_4000_s_4_2-1.html |    24 [31m-[m
+ OldWordpressArchive/_attachments/aero.html         |    23 [31m-[m
+ .../android_launcher_icon_blue_5121.html           |    23 [31m-[m
+ .../_attachments/aurebesh-unveil.html              |    23 [31m-[m
+ .../_attachments/blank-button-1.html               |    23 [31m-[m
+ OldWordpressArchive/_attachments/blank-button.html |    23 [31m-[m
+ OldWordpressArchive/_attachments/boeing.html       |    23 [31m-[m
+ .../_attachments/boeing_logo-2.html                |    23 [31m-[m
+ OldWordpressArchive/_attachments/boeing_logo.html  |    24 [31m-[m
+ OldWordpressArchive/_attachments/boeing_nobg.html  |    23 [31m-[m
+ OldWordpressArchive/_attachments/button-black.html |    23 [31m-[m
+ .../_attachments/button-blank-with-aurebesh-1.html |    23 [31m-[m
+ .../_attachments/button-blank-with-aurebesh.html   |    23 [31m-[m
+ .../_attachments/button_orange.html                |    23 [31m-[m
+ OldWordpressArchive/_attachments/carbon_fibre.html |    23 [31m-[m
+ .../_attachments/carbon_fibre_2x.html              |    24 [31m-[m
+ OldWordpressArchive/_attachments/coffee.html       |    24 [31m-[m
+ OldWordpressArchive/_attachments/collin.html       |    23 [31m-[m
+ OldWordpressArchive/_attachments/crane-logo.html   |    23 [31m-[m
+ OldWordpressArchive/_attachments/cranespace.html   |    23 [31m-[m
+ ...d-2020-01-18_infinite-squirrel_final-1-png.html |    24 [31m-[m
+ .../cropped-32467503374_e9226ecf72_z-1-jpg.html    |    24 [31m-[m
+ .../cropped-33310448365_8b7d720bf9_z-jpg.html      |    24 [31m-[m
+ .../cropped-33673310845_2ea133ac31_o-jpg.html      |    27 [31m-[m
+ ...106d55b2dea7-mv2_d_4352_3616_s_4_2-1-1-jpg.html |    26 [31m-[m
+ ...db106d55b2dea7-mv2_d_4352_3616_s_4_2-1-jpg.html |    25 [31m-[m
+ ...baabfd3908c2821b-mv2_d_1800_2340_s_2-1-png.html |    24 [31m-[m
+ ...06baabfd3908c2821b-mv2_d_1800_2340_s_2-png.html |    24 [31m-[m
+ ...db106d55b2dea7-mv2_d_4352_3616_s_4_2-1-jpg.html |    25 [31m-[m
+ .../_attachments/cropped-img_8321-jpg.html         |    27 [31m-[m
+ ...-infinite_recharge_logo-e1579385609855-png.html |    24 [31m-[m
+ .../cropped-lin_np_m_orangetd_x-jpg.html           |    24 [31m-[m
+ .../_attachments/cropped-power-up-team-1-jpg.html  |    25 [31m-[m
+ .../_attachments/cropped-power-up-team-jpg.html    |    25 [31m-[m
+ .../cropped-team-photo-1_small-1-jpg.html          |    25 [31m-[m
+ .../cropped-team-photo-1_small-jpg.html            |    27 [31m-[m
+ OldWordpressArchive/_attachments/day-7-1.html      |    23 [31m-[m
+ .../_attachments/deepspacito-2.html                |    23 [31m-[m
+ .../_attachments/deepspacito-3.html                |    23 [31m-[m
+ OldWordpressArchive/_attachments/deepspacito.html  |    25 [31m-[m
+ .../_attachments/default-button.html               |    23 [31m-[m
+ OldWordpressArchive/_attachments/download-2.html   |    23 [31m-[m
+ OldWordpressArchive/_attachments/download-3.html   |    23 [31m-[m
+ OldWordpressArchive/_attachments/download.html     |    23 [31m-[m
+ .../_attachments/electroimpact-logo.html           |    23 [31m-[m
+ .../_attachments/entrepreneurship-1.html           |    26 [31m-[m
+ .../_attachments/entrepreneurship-3.html           |    23 [31m-[m
+ .../_attachments/entrepreneurship-4.html           |    24 [31m-[m
+ .../_attachments/entrepreurship-2.html             |    24 [31m-[m
+ OldWordpressArchive/_attachments/espresso.html     |    24 [31m-[m
+ .../_attachments/f5-networks-logo.html             |    23 [31m-[m
+ .../_attachments/f_logo_rgb-hex-blue_512-2.html    |    23 [31m-[m
+ .../_attachments/f_logo_rgb-hex-blue_512.html      |    23 [31m-[m
+ .../_attachments/first-banner-1.html               |    23 [31m-[m
+ OldWordpressArchive/_attachments/first-banner.html |    23 [31m-[m
+ .../_attachments/first-frc18-powerup-oneline.html  |    24 [31m-[m
+ .../_attachments/first-steamworks-logo-2.html      |    24 [31m-[m
+ .../first-steamworks-transparent-logo.html         |    24 [31m-[m
+ OldWordpressArchive/_attachments/first-wa.html     |    23 [31m-[m
+ .../_attachments/first_stronghold_logo-svg.html    |    23 [31m-[m
+ .../_attachments/firstchamp2017.html               |    23 [31m-[m
+ OldWordpressArchive/_attachments/firstwa_logo.html |    23 [31m-[m
+ ...twashington_logo_horz_rgb_1024x256_preview.html |    23 [31m-[m
+ OldWordpressArchive/_attachments/fll2017.html      |    23 [31m-[m
+ .../frc-2930-team-handbook-2016-2017-revised.html  |    23 [31m-[m
+ .../frc-2930-team-handbook-2017-2018.html          |    23 [31m-[m
+ .../_attachments/fwsciencefair.html                |    23 [31m-[m
+ OldWordpressArchive/_attachments/garlic-jims.html  |    23 [31m-[m
+ .../_attachments/garlicjims_logo-2.html            |    23 [31m-[m
+ .../_attachments/garlicjims_logo-3.html            |    23 [31m-[m
+ .../_attachments/garlicjims_logo.html              |    23 [31m-[m
+ .../_attachments/gear-1119298_960_720.html         |    23 [31m-[m
+ .../general-safety-training-2930-2.html            |    22 [31m-[m
+ .../_attachments/general-safety-training-2930.html |    23 [31m-[m
+ OldWordpressArchive/_attachments/ggc.html          |    23 [31m-[m
+ OldWordpressArchive/_attachments/girlsgen.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/glacierpeak.html  |    23 [31m-[m
+ .../gp-2930-scouting-data-saturday.html            |    22 [31m-[m
+ OldWordpressArchive/_attachments/gphs_logo-2.html  |    23 [31m-[m
+ OldWordpressArchive/_attachments/gphs_logo.html    |    24 [31m-[m
+ .../_attachments/grizzlies-logo-2.html             |    23 [31m-[m
+ .../_attachments/grizzlies-logo.html               |    23 [31m-[m
+ OldWordpressArchive/_attachments/image-1.html      |    23 [31m-[m
+ OldWordpressArchive/_attachments/image.html        |    23 [31m-[m
+ OldWordpressArchive/_attachments/img-4776.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_0061.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_0158.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_0237.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_0297.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_1424.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_1884.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_2429.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_3100.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_4037.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_4273.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_4314.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_4369.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_4403.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_4442.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_4451.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_4555.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_4570.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_4575.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_4594.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_4682.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_4702.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_5599.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_5740.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_6359.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_8310-2.html   |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_8310.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_8321.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_8322.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_8352.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_8390.html     |    25 [31m-[m
+ OldWordpressArchive/_attachments/img_9640.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_9657.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_9658.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_9659.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_9660.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_9670.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_9684.html     |    24 [31m-[m
+ OldWordpressArchive/_attachments/img_9940.html     |    24 [31m-[m
+ .../_attachments/infinite_recharge_logo.html       |    24 [31m-[m
+ .../_attachments/instagram-logo-1.html             |    23 [31m-[m
+ .../_attachments/lcesciencefair.html               |    25 [31m-[m
+ OldWordpressArchive/_attachments/leidos-color.html |    23 [31m-[m
+ OldWordpressArchive/_attachments/leidos_logo.html  |    23 [31m-[m
+ .../_attachments/lin_np_m_orangetd_x.html          |    23 [31m-[m
+ .../microsoft-philanthropies-logo.html             |    23 [31m-[m
+ .../_attachments/microsoft_logo-2.html             |    23 [31m-[m
+ .../_attachments/microsoft_logo.html               |    23 [31m-[m
+ .../new-instagram-logo-vector-png-8-2.html         |    23 [31m-[m
+ .../new-instagram-logo-vector-png-8.html           |    23 [31m-[m
+ .../_attachments/nintendo-logo.html                |    23 [31m-[m
+ OldWordpressArchive/_attachments/ospi-2.html       |    23 [31m-[m
+ OldWordpressArchive/_attachments/ospi-logo_1.html  |    23 [31m-[m
+ OldWordpressArchive/_attachments/ospi.html         |    23 [31m-[m
+ ...hilanthropies_logo_with_msft_gray-1024x371.html |    23 [31m-[m
+ .../_attachments/philips-converted.html            |    23 [31m-[m
+ OldWordpressArchive/_attachments/philips_logo.html |    23 [31m-[m
+ .../_attachments/power-up-team.html                |    24 [31m-[m
+ OldWordpressArchive/_attachments/qtq80-1lzl8v.html |    23 [31m-[m
+ .../_attachments/recycle_rush-svg.html             |    23 [31m-[m
+ OldWordpressArchive/_attachments/sandwich.html     |    24 [31m-[m
+ .../_attachments/snapdog-logo-2.html               |    23 [31m-[m
+ OldWordpressArchive/_attachments/snapdog-logo.html |    23 [31m-[m
+ OldWordpressArchive/_attachments/snapdog_logo.html |    23 [31m-[m
+ .../_attachments/sno-ed-found_logo.html            |    23 [31m-[m
+ .../_attachments/solidworks-logo.html              |    23 [31m-[m
+ OldWordpressArchive/_attachments/speeanobg.html    |    23 [31m-[m
+ .../_attachments/sponser-packet-2016-17.html       |    23 [31m-[m
+ .../_attachments/sponser_packet_10-30_2019.html    |    22 [31m-[m
+ .../_attachments/sponsor_one_sheet.html            |    22 [31m-[m
+ .../_attachments/squirrel-logo-stronghold.html     |    23 [31m-[m
+ .../_attachments/squirrel_logo_2019_theme-2.html   |    23 [31m-[m
+ .../_attachments/squirrel_logo_2019_theme-3.html   |    23 [31m-[m
+ .../_attachments/squirrel_logo_2019_theme-4.html   |    23 [31m-[m
+ .../_attachments/squirrel_logo_2019_theme.html     |    23 [31m-[m
+ .../_attachments/squirrel_logo_pixels.html         |    24 [31m-[m
+ .../_attachments/squirrel_steampunk-2.html         |    23 [31m-[m
+ .../_attachments/team-photo-1_small-2.html         |    27 [31m-[m
+ .../_attachments/team-photo-1_small.html           |    24 [31m-[m
+ .../_attachments/team_handbook_2019-2020.html      |    23 [31m-[m
+ .../_attachments/tulaliptribes.html                |    23 [31m-[m
+ .../_attachments/twitter_sq-512-2.html             |    23 [31m-[m
+ .../_attachments/twitter_sq-512.html               |    24 [31m-[m
+ .../_attachments/verticle-sponsor-banner_12.html   |    23 [31m-[m
+ .../_attachments/verticle-sponsor-banner_5.html    |    23 [31m-[m
+ OldWordpressArchive/_attachments/wavegrid.html     |    23 [31m-[m
+ .../_nav_menu_items/2017-02-09-38.html             |    29 [31m-[m
+ .../_nav_menu_items/2017-02-09-40.html             |    29 [31m-[m
+ .../_nav_menu_items/2017-02-09-facebook.html       |    29 [31m-[m
+ .../_nav_menu_items/2017-02-09-home.html           |    29 [31m-[m
+ .../_nav_menu_items/2017-02-09-instagram.html      |    29 [31m-[m
+ .../_nav_menu_items/2017-02-09-twitter.html        |    29 [31m-[m
+ .../_nav_menu_items/2017-02-13-73.html             |    29 [31m-[m
+ .../_nav_menu_items/2017-02-13-74.html             |    29 [31m-[m
+ .../_nav_menu_items/2017-02-19-185.html            |    29 [31m-[m
+ .../_nav_menu_items/2017-02-19-186.html            |    29 [31m-[m
+ .../_nav_menu_items/2017-02-19-187.html            |    29 [31m-[m
+ .../_nav_menu_items/2017-02-20-218.html            |    29 [31m-[m
+ .../_nav_menu_items/2017-02-21-email.html          |    29 [31m-[m
+ .../_nav_menu_items/2018-01-16-488.html            |    29 [31m-[m
+ .../_nav_menu_items/2019-01-20-561.html            |    29 [31m-[m
+ .../_nav_menu_items/2019-03-16-682.html            |    29 [31m-[m
+ .../_nav_menu_items/2020-02-04-745.html            |    29 [31m-[m
+ .../_nav_menu_items/2020-02-08-788.html            |    29 [31m-[m
+ .../_nav_menu_items/2020-02-11-846.html            |    29 [31m-[m
+ .../_nav_menu_items/2020-02-11-853.html            |    29 [31m-[m
+ .../_nav_menu_items/2020-02-11-875.html            |    29 [31m-[m
+ .../sonicsquirrels.WordPress_Posts.2021-11-21.xml  | 11061 [31m-------------------[m
+ ...sonicsquirrels_wordpress_customizing_config.dat |    22 [31m-[m
+ README.md                                          |   199 [32m+[m[31m-[m
+ _config.yml                                        |    92 [31m-[m
+ _drafts/2020-05-27-ppe-production.html             |    37 [31m-[m
+ _includes/disqus_comments.html                     |    20 [31m-[m
+ _includes/footer.html                              |    35 [31m-[m
+ _includes/google-analytics.html                    |    12 [31m-[m
+ _includes/head.html                                |    11 [31m-[m
+ _includes/header.html                              |    30 [31m-[m
+ _includes/icon-github.html                         |     1 [31m-[m
+ _includes/icon-github.svg                          |     1 [31m-[m
+ _includes/icon-twitter.html                        |     1 [31m-[m
+ _includes/icon-twitter.svg                         |     1 [31m-[m
+ _includes/social.html                              |    15 [31m-[m
+ _layouts/default.html                              |    20 [31m-[m
+ _layouts/home.html                                 |    34 [31m-[m
+ _layouts/page.html                                 |    14 [31m-[m
+ _layouts/post.html                                 |    27 [31m-[m
+ _pages/about.html                                  |    82 [31m-[m
+ _pages/button-designs.html                         |    28 [31m-[m
+ _pages/calendar.html                               |    23 [31m-[m
+ _pages/competition-season-2015.html                |    29 [31m-[m
+ _pages/competition-season-2016.html                |    27 [31m-[m
+ _pages/competition-season-2017.html                |    43 [31m-[m
+ _pages/competition-season-2018.html                |    52 [31m-[m
+ _pages/competition-season-2019.html                |    88 [31m-[m
+ _pages/competition-season-2020.html                |    66 [31m-[m
+ _pages/competition-season.html                     |    29 [31m-[m
+ _pages/contact.html                                |    10 [31m-[m
+ _pages/donate.html                                 |    46 [31m-[m
+ _pages/mentors.html                                |    53 [31m-[m
+ _pages/outreach.html                               |   469 [31m-[m
+ _pages/posts-page.html                             |    11 [31m-[m
+ _pages/resources.html                              |    26 [31m-[m
+ _pages/social-media.html                           |    14 [31m-[m
+ _pages/sponsors.html                               |   208 [31m-[m
+ _posts/2020-02-11-vlog-week-1.html                 |    13 [31m-[m
+ _posts/2020-02-11-vlog-week-2-3.html               |    15 [31m-[m
+ _posts/2020-02-11-vlog-week-4.html                 |    14 [31m-[m
+ _posts/2020-02-11-vlog-week-5.html                 |    14 [31m-[m
+ _posts/2020-02-18-vlog-week-6.html                 |    14 [31m-[m
+ _posts/2020-02-26-vlog-week-7.html                 |    17 [31m-[m
+ _posts/2020-05-28-current-happenings.html          |    24 [31m-[m
+ _posts/2022-03-06-Meet-Pteromyimi.html             |    16 [31m-[m
+ _posts/2022-03-10-glacier-peak.html                |    17 [31m-[m
+ _posts/2022-03-20-sundome.html                     |    23 [31m-[m
+ .../2022-03-24-headed-to-district-campionship.html |    28 [31m-[m
+ _posts/2022-05-16-worlds-2022 copy.html            |    25 [31m-[m
+ _posts/2022-05-18-Yotube-video-annoucment.html     |    14 [31m-[m
+ _posts/2022-05-18-houston-championships.html       |    14 [31m-[m
+ _posts/2023-02-18-student-interviews.html          |    18 [31m-[m
+ _posts/2023-03-03-robot-reveal.html                |    21 [31m-[m
+ _posts/2023-04-04-gpk-bonney-lake-recap.html       |    42 [31m-[m
+ _posts/2023-04-14-pnw-recap.html                   |    27 [31m-[m
+ ...2023-11-29-2023-worlds-and-offseason-recap.html |    48 [31m-[m
+ _posts/2024-02-24-hosting-glacier-peak.html        |    28 [31m-[m
+ _posts/2024-03-27-robot-reveal.html                |    21 [31m-[m
+ _posts/2024-04-09-dcmp-recap-worlds-bound.html     |    23 [31m-[m
+ _posts/2026-10-06-garage-sale-announcement.html    |    35 [31m-[m
+ _sass/minima.scss                                  |    58 [31m-[m
+ _sass/minima/_base.scss                            |   271 [31m-[m
+ _sass/minima/_layout.scss                          |   287 [31m-[m
+ _sass/minima/_syntax-highlighting.scss             |    71 [31m-[m
+ .../images/2017/02/Entrepreneurship-3-150x150.jpg  |   Bin [31m9599[m -> [32m7362[m bytes
+ assets/images/2017/02/FLL2017-150x150.png          |   Bin [31m46503[m -> [32m42634[m bytes
+ assets/images/2017/02/FWsciencefair-150x150.png    |   Bin [31m56925[m -> [32m52960[m bytes
+ assets/images/2017/02/GGC-150x150.png              |   Bin [31m53802[m -> [32m46563[m bytes
+ assets/images/2017/02/IMG_4037-150x150.jpg         |   Bin [31m36075[m -> [32m5922[m bytes
+ assets/images/2017/02/IMG_9640-150x150.jpg         |   Bin [31m47139[m -> [32m8848[m bytes
+ .../images/2017/02/Squirrel_steampunk-216x300.png  |   Bin [31m52258[m -> [32m49152[m bytes
+ .../02/android_launcher_icon_blue_5121-150x150.png |   Bin [31m14614[m -> [32m13047[m bytes
+ assets/images/2017/02/firstchamp2017-300x89.png    |   Bin [31m18511[m -> [32m17092[m bytes
+ .../2017/02/girlsgen-e1489724555583-150x150.png    |   Bin [31m48551[m -> [32m42610[m bytes
+ .../02/lcesciencefair-e1489956804895-150x136.png   |   Bin [31m40084[m -> [32m36055[m bytes
+ .../2017/02/squirrel-logo-stronghold-220x300.png   |   Bin [31m43323[m -> [32m42034[m bytes
+ assets/images/2018/01/18-Houston-REV-Horiz-2.png   |   Bin [31m63518[m -> [32m62476[m bytes
+ .../2018/01/Squirrel_logo_pixels-217x300.png       |   Bin [31m24965[m -> [32m23300[m bytes
+ .../01/android_launcher_icon_blue_5121-150x150.png |   Bin [31m14614[m -> [32m13047[m bytes
+ .../2019/01/C-FIRST-CMP18-Desktop-Launch2019.png   |   Bin [31m36231[m -> [32m36016[m bytes
+ .../2019/01/Squirrel_logo_2019_Theme-212x300.png   |   Bin [31m54682[m -> [32m50492[m bytes
+ .../01/android_launcher_icon_blue_5121-150x150.png |   Bin [31m14614[m -> [32m13047[m bytes
+ ...2020.01.18_Infinite-Squirrel-Button-300x300.png |   Bin [31m60443[m -> [32m60430[m bytes
+ ...inite-Squirrel-Button_REV-Darksaber-300x300.png |   Bin [31m63970[m -> [32m63957[m bytes
+ ..._Infinite-Squirrel-Button_Rev-Green-300x300.png |   Bin [31m60349[m -> [32m60336[m bytes
+ ...Infinite-Squirrel-Button_Rev-Purple-300x300.png |   Bin [31m58905[m -> [32m58892[m bytes
+ ...020.01.18_Infinite-Squirrel_FINAL-1-216x300.png |   Bin [31m43169[m -> [32m43156[m bytes
+ .../01/android_launcher_icon_blue_5121-150x150.png |   Bin [31m14614[m -> [32m13047[m bytes
+ .../02/2000px-leidos_logo_2013.svg_-1024x248.png   |   Bin [31m33613[m -> [32m33600[m bytes
+ assets/images/2020/02/Aero.png                     |   Bin [31m27029[m -> [32m12515[m bytes
+ assets/images/2020/02/Collin-1024x187.jpg          |   Bin [31m31940[m -> [32m20397[m bytes
+ assets/images/2020/02/GarlicJims_Logo.jpg          |   Bin [31m18555[m -> [32m14019[m bytes
+ assets/images/2020/02/GarlicJims_Logo.png          |   Bin [31m6990[m -> [32m6723[m bytes
+ assets/images/2020/02/SpeeaNoBG.jpg                |   Bin [31m15168[m -> [32m14369[m bytes
+ .../02/Verticle-Sponsor-Banner_12-1011x1024.png    |   Bin [31m230282[m -> [32m230233[m bytes
+ .../images/2020/02/Verticle-Sponsor-Banner_5.png   |   Bin [31m25199[m -> [32m24556[m bytes
+ .../02/android_launcher_icon_blue_5121-150x150.png |   Bin [31m14614[m -> [32m13047[m bytes
+ assets/images/2020/02/boeing_nobg-1024x272.png     |   Bin [31m28773[m -> [32m28772[m bytes
+ assets/images/2020/02/craneSpace.png               |   Bin [31m36900[m -> [32m36139[m bytes
+ assets/images/2020/02/download.png                 |   Bin [31m8709[m -> [32m8457[m bytes
+ assets/images/2020/02/glacierPeak-1024x747.jpg     |   Bin [31m100131[m -> [32m99125[m bytes
+ assets/images/2020/02/image-1.png                  |   Bin [31m6409[m -> [32m6269[m bytes
+ assets/images/2020/02/image.png                    |   Bin [31m18608[m -> [32m17996[m bytes
+ assets/images/2020/02/ospi-logo_1.png              |   Bin [31m18817[m -> [32m18787[m bytes
+ assets/images/2020/05/IMG-4776-225x300.jpg         |   Bin [31m24269[m -> [32m12310[m bytes
+ assets/images/2022/2022_03_hifi_mascot.jpg         |   Bin [31m245499[m -> [32m154492[m bytes
+ assets/images/2022/2022_03_robot_traverse.jpg      |   Bin [31m232899[m -> [32m150804[m bytes
+ assets/images/2022/2022_03_squirrel_spirit.jpg     |   Bin [31m259057[m -> [32m161205[m bytes
+ .../2022/2022_03_yakima_sudome_blue_banner.jpg     |   Bin [31m242581[m -> [32m160044[m bytes
+ assets/images/2022/2022_03_yakima_sundome_bus.jpg  |   Bin [31m242609[m -> [32m143710[m bytes
+ assets/images/2022/2022_SunDome_bluebanner.png     |   Bin [31m39958[m -> [32m30041[m bytes
+ assets/images/2022/2022_Texas_Team_Picture.jpg     |   Bin [31m943300[m -> [32m502235[m bytes
+ assets/images/2023/2023 Open House Pic 1 .jpeg     |   Bin [31m93498[m -> [32m51885[m bytes
+ .../2023_Block_Party_Winners_and_Finalists.jpg     |   Bin [31m1165576[m -> [32m467882[m bytes
+ assets/images/2023/2023_PNW_Grils_Gen_Team.jpg     |   Bin [31m1509087[m -> [32m528355[m bytes
+ .../images/2023/2023_Worlds_Autonomous_Award.jpg   |   Bin [31m1318822[m -> [32m575124[m bytes
+ assets/images/2023/Build Season 2023 Pic 2.jpeg    |   Bin [31m171272[m -> [32m132477[m bytes
+ assets/images/2023/Build Season 2023 Pic.jpeg      |   Bin [31m138996[m -> [32m85118[m bytes
+ .../2023/Comp Season Sonic Squirrles 2023.jpg      |   Bin [31m22795206[m -> [32m392254[m bytes
+ assets/images/2023/Open House Robot Pic .jpeg      |   Bin [31m139675[m -> [32m112368[m bytes
+ assets/images/2023_03_bonney_lake_4.jpg            |   Bin [31m193218[m -> [32m150095[m bytes
+ assets/images/2023_03_drive_team_picture_sized.jpg |   Bin [31m333716[m -> [32m324792[m bytes
+ assets/images/2023_03_gpk_full_nodes-resized.jpg   |   Bin [31m389496[m -> [32m378060[m bytes
+ assets/images/2023_03_gpk_robots_docked.jpg        |   Bin [31m403426[m -> [32m391901[m bytes
+ assets/images/2023_team_photo-sized.jpg            |   Bin [31m339817[m -> [32m330370[m bytes
+ assets/images/2023_team_photo_v2.jpg               |   Bin [31m867278[m -> [32m305669[m bytes
+ .../images/2024/bonney_lake_2024_award_photo.jpg   |   Bin [31m237257[m -> [32m99193[m bytes
+ assets/images/2024/dcmp_maestro_trap.jpg           |   Bin [31m262372[m -> [32m129438[m bytes
+ assets/images/2024/hosting_gpk.jpg                 |   Bin [31m262385[m -> [32m137124[m bytes
+ assets/images/2025/sponsor_logo_ABW_Paint.png      |   Bin [31m58169[m -> [32m55422[m bytes
+ assets/images/2025/sponsor_logo_Boeing.png         |   Bin [31m28773[m -> [32m28772[m bytes
+ assets/images/2025/sponsor_logo_Diskuv.png         |   Bin [31m33250[m -> [32m23787[m bytes
+ assets/images/2025/sponsor_logo_Dynon_Avionics.png |   Bin [31m37561[m -> [32m21175[m bytes
+ assets/images/2025/sponsor_logo_FIRST.png          |   Bin [31m105383[m -> [32m49666[m bytes
+ assets/images/2025/sponsor_logo_Garlic_Jims.png    |   Bin [31m43249[m -> [32m40872[m bytes
+ assets/images/2025/sponsor_logo_Genie.png          |   Bin [31m7976[m -> [32m7888[m bytes
+ assets/images/2025/sponsor_logo_Jones_Ortho.png    |   Bin [31m13250[m -> [32m13134[m bytes
+ .../images/2025/sponsor_logo_Lynnwood_Motoplex.png |   Bin [31m42648[m -> [32m41300[m bytes
+ assets/images/2025/sponsor_logo_OSPI.png           |   Bin [31m18817[m -> [32m18787[m bytes
+ assets/images/2025/sponsor_logo_SEF.png            |   Bin [31m116775[m -> [32m67113[m bytes
+ assets/images/2025/sponsor_logo_SPEEA.png          |   Bin [31m192855[m -> [32m172385[m bytes
+ .../2025/sponsor_logo_Swerve_Drive_Specialties.png |   Bin [31m53563[m -> [32m51512[m bytes
+ .../2025/sponsor_logo_West_Coast_Products.png      |   Bin [31m98787[m -> [32m96215[m bytes
+ assets/images/Button_Orange-300x300.png            |   Bin [31m57761[m -> [32m57748[m bytes
+ assets/images/IMG_9657-1024x578.jpg                |   Bin [31m86416[m -> [32m55662[m bytes
+ assets/images/IMG_9658-1024x578.jpg                |   Bin [31m83596[m -> [32m52714[m bytes
+ assets/images/IMG_9659-1024x578.jpg                |   Bin [31m91176[m -> [32m58901[m bytes
+ assets/images/IMG_9660-1024x578.jpg                |   Bin [31m89327[m -> [32m56055[m bytes
+ .../Verticle-Sponsor-Banner_12-1011x1024.png       |   Bin [31m230282[m -> [32m230233[m bytes
+ assets/images/sonicsquirrels-favicon-192x192.png   |   Bin [31m40483[m -> [32m38027[m bytes
+ assets/images/thebluealliance_icon.png             |   Bin [31m1627[m -> [32m1018[m bytes
+ index.html                                         |   297 [32m+[m[31m-[m
+ netlify.toml                                       |     8 [31m-[m
+ scripts/wordpress-html-to-md.rb                    |    88 [31m-[m
+ 401 files changed, 383 insertions(+), 20344 deletions(-)

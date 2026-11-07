@@ -1,0 +1,64 @@
+{
+  "robots": [
+    {
+      "year": 2017,
+      "name": "Hugo Eekhoorn",
+      "game": "FIRST STEAMWORKS",
+      "description": "",
+      "image": "",
+      "photo": "",
+      "url": "/competition-season-2017/",
+      "cad_url": ""
+    },
+    {
+      "year": 2018,
+      "name": "Risu Squee",
+      "game": "FIRST POWER UP",
+      "description": "",
+      "image": "",
+      "photo": "",
+      "url": "/competition-season-2018/",
+      "cad_url": ""
+    },
+    {
+      "year": 2020,
+      "name": "Ketara Iora",
+      "game": "Infinite Recharge",
+      "description": "",
+      "image": "",
+      "photo": "",
+      "url": "/competition-season-2020/",
+      "cad_url": ""
+    },
+    {
+      "year": 2022,
+      "name": "Pteromyini",
+      "game": "Rapid React",
+      "description": "",
+      "image": "",
+      "photo": "/assets/images/2022/2022_03_robot_traverse.jpg",
+      "url": "/2022/03/meet-pteromyini/",
+      "cad_url": ""
+    },
+    {
+      "year": 2023,
+      "name": "Rober",
+      "game": "Charged Up",
+      "description": "",
+      "image": "",
+      "photo": "/assets/images/2023/Open House Robot Pic .jpeg",
+      "url": "/2023/03/robot-reveal-2023/",
+      "cad_url": ""
+    },
+    {
+      "year": 2024,
+      "name": "Maestro",
+      "game": "Crescendo",
+      "description": "",
+      "image": "",
+      "photo": "/assets/images/2024/dcmp_maestro_trap.jpg",
+      "url": "/2024/03/robot-reveal-2024/",
+      "cad_url": ""
+    }
+  ]
+}
