@@ -4,20 +4,22 @@
 <link rel="icon" href="/favicon.ico"><link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Sonic Squirrels">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css"></head><body><header class="topbar"><a class="logo" href="/">Sonic <b>Squirrels</b></a><nav class="links"><a href="/#archive">Robots</a><a href="/about/">Team</a><a href="/news/">News</a><a href="/sponsors/">Sponsors</a><a href="/contact/">Contact</a><a class=d href="/donate/">Donate</a></nav></header><main class="wrap"><div class=eyebrow>Latest</div><h1>News</h1><div class="prose"><div class="newslist" id="nl"></div></div></main><footer class="foot"><div><strong>Sonic Squirrels FRC Team 2930</strong><br>Snohomish, Washington · <a href="mailto:sonicsquirrels@gmail.com">sonicsquirrels@gmail.com</a></div><div class="soc"><a href="https://www.instagram.com/sonicsquirrels" rel="noopener">Instagram</a><a href="https://www.facebook.com/SonicSquirrels2930" rel="noopener">Facebook</a><a href="https://www.youtube.com/@sonicsquirrels" rel="noopener">YouTube</a><a href="https://github.com/FRC-Sonic-Squirrels" rel="noopener">GitHub</a><a href="https://www.twitch.tv/sonicsquirrels" rel="noopener">Twitch</a><a href="https://www.thebluealliance.com/team/2930" rel="noopener">The Blue Alliance</a></div></footer><script>
+<link rel="stylesheet" href="/assets/site.css"></head><body><header class="topbar"><a class="logo" href="/"><img src="/assets/images/sonic-squirrels-mascot.png" alt="" aria-hidden="true">Sonic <b>Squirrels</b></a><nav class="links"><a href="/#archive">Robots</a><a href="/about/">Team</a><a href="/news/">News</a><a href="/sponsors/">Sponsors</a><a href="/contact/">Contact</a><a class=d href="/donate/">Donate</a></nav></header><main class="wrap"><div class=eyebrow>Latest</div><h1>News</h1><div class="prose"><div class="newslist" id="nl"></div></div></main><footer class="foot"><div><strong>Sonic Squirrels FRC Team 2930</strong><br>Snohomish, Washington · <a href="mailto:sonicsquirrels@gmail.com">sonicsquirrels@gmail.com</a></div><div class="soc"><a href="https://www.instagram.com/sonicsquirrels" rel="noopener" target="_blank">Instagram</a><a href="https://www.facebook.com/SonicSquirrels2930" rel="noopener" target="_blank">Facebook</a><a href="https://www.youtube.com/channel/UCDwtzY7Z_dr__YlZSw-dYow" rel="noopener" target="_blank">YouTube</a><a href="https://www.twitch.tv/sonicsquirrels" rel="noopener" target="_blank">Twitch</a><a href="https://www.thebluealliance.com/team/2930" rel="noopener" target="_blank">The Blue Alliance</a></div></footer><script>
 const slug=p=>(p.date+'-'+p.title).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const yt=u=>{const m=(u||'').match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/);return m?m[1]:''};
 const fmt=d=>{const t=new Date(d+'T12:00:00');return isNaN(t)?d:t.toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})};
+const preview=text=>{const words=text.trim().split(/\s+/);let snippet='';for(const word of words){const next=snippet?snippet+' '+word:word;if(next.length>150)return (snippet||word)+'...';snippet=next}return snippet};
+const externalTarget=a=>{if(/^https?:\/\//i.test(a.href)&&new URL(a.href,location.href).origin!==location.origin){a.target='_blank';a.rel='noopener'}};
 fetch('/content/news.json',{cache:'no-cache'}).then(r=>r.json()).then(d=>{const box=document.getElementById('nl');
 (d.posts||[]).slice().sort((a,b)=>b.date.localeCompare(a.date)).forEach(p=>{
 const a=document.createElement('article');a.id=slug(p);a.className='post';
 const t=document.createElement('time');t.textContent=fmt(p.date);const h=document.createElement('h2');
-if(p.url){const l=document.createElement('a');l.href=p.url;l.textContent=p.title;h.append(l)}else h.textContent=p.title;
+if(p.url){const l=document.createElement('a');l.href=p.url;l.textContent=p.title;externalTarget(l);h.append(l)}else h.textContent=p.title;
 a.append(t,h);
-if(p.image&&p.image.startsWith('/')){const i=new Image();i.src=p.image;i.alt='';i.loading='lazy';a.append(i)}
-if(p.body){const b=document.createElement('p');b.textContent=p.body;a.append(b)}
+if(p.image&&p.image.startsWith('/')){const i=new Image();i.src=p.image;i.alt='';i.loading='lazy';if(p.image.endsWith('/maestro-robot-reveal.png')||p.image.endsWith('/open-house-robot-parts.jpg'))i.classList.add('news-feature-image');a.append(i)}
+if(p.body){const b=document.createElement('p');b.textContent=preview(p.body);a.append(b)}
 if(!p.url&&yt(p.video)){const f=document.createElement('iframe');f.src='https://www.youtube.com/embed/'+yt(p.video);f.title=p.title;f.allowFullscreen=true;f.loading='lazy';a.append(f)}
-if(p.url){const m=document.createElement('a');m.className='arrow';m.href=p.url;m.textContent='Read more →';a.append(m)}
+if(p.url){const m=document.createElement('a');m.className='arrow';m.href=p.url;m.textContent='Read more →';externalTarget(m);a.append(m)}
 box.append(a)});
 if(location.hash){const e=document.getElementById(location.hash.slice(1));if(e)e.scrollIntoView()}}).catch(()=>{});
 </script></body></html>
