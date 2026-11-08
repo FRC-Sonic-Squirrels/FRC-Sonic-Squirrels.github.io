@@ -199,7 +199,7 @@ function renderNews(P){
   if(!P.length)return;$('news').hidden=false;
   P.slice().sort((a,b)=>b.date.localeCompare(a.date)).slice(0,6).forEach(p=>{
     const a=el('article','post'),u=p.image&&safeUrl(p.image);
-    if(u){const im=new Image();im.src=u;im.alt='';im.loading='lazy';if(u.endsWith('/maestro-robot-reveal.png')||u.endsWith('/open-house-robot-parts.jpg'))im.classList.add('news-feature-image');a.append(im)}
+    if(u){const im=new Image();im.src=u;im.alt='';im.loading='lazy';if(u.endsWith('/maestro-robot-reveal.png')||u.endsWith('/open-house-robot-parts.jpg')||u.endsWith('/pnw-district-championships.jpg'))im.classList.add('news-feature-image');a.append(im)}
     const h=el('h3'),l=el('a',null,p.title);l.href=p.url&&safeUrl(p.url)||'/news/#'+(p.date+'-'+p.title).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');externalTarget(l);h.append(l);
     a.append(el('time',null,fmtDate(p.date)),h,el('p',null,preview(p.body)));
     $('newsList').append(a);

@@ -16,7 +16,7 @@ const a=document.createElement('article');a.id=slug(p);a.className='post';
 const t=document.createElement('time');t.textContent=fmt(p.date);const h=document.createElement('h2');
 if(p.url){const l=document.createElement('a');l.href=p.url;l.textContent=p.title;externalTarget(l);h.append(l)}else h.textContent=p.title;
 a.append(t,h);
-if(p.image&&p.image.startsWith('/')){const i=new Image();i.src=p.image;i.alt='';i.loading='lazy';if(p.image.endsWith('/maestro-robot-reveal.png')||p.image.endsWith('/open-house-robot-parts.jpg'))i.classList.add('news-feature-image');a.append(i)}
+if(p.image&&p.image.startsWith('/')){const i=new Image();i.src=p.image;i.alt='';i.loading='lazy';if(p.image.endsWith('/maestro-robot-reveal.png')||p.image.endsWith('/open-house-robot-parts.jpg')||p.image.endsWith('/pnw-district-championships.jpg'))i.classList.add('news-feature-image');a.append(i)}
 if(p.body){const b=document.createElement('p');b.textContent=preview(p.body);a.append(b)}
 if(!p.url&&yt(p.video)){const f=document.createElement('iframe');f.src='https://www.youtube.com/embed/'+yt(p.video);f.title=p.title;f.allowFullscreen=true;f.loading='lazy';a.append(f)}
 if(p.url){const m=document.createElement('a');m.className='arrow';m.href=p.url;m.textContent='Read more →';externalTarget(m);a.append(m)}
